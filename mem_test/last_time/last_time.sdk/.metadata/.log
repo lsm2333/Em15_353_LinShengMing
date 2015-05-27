@@ -1,0 +1,29 @@
+!SESSION 2015-03-30 22:23:58.659 -----------------------------------------------
+eclipse.buildId=2014.2
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/LINUX_TEST/last_time/last_time.sdk
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-03-30 22:25:04.340
+!MESSAGE Indexed 'mem_test_bsp' (81 sources, 104 headers) in 3.73 sec: 3,291 declarations; 12,213 references; 56 unresolved inclusions; 9 syntax errors; 37 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-03-30 22:25:04.852
+!MESSAGE Indexed 'mem_test' (3 sources, 29 headers) in 0.50 sec: 1,002 declarations; 1,383 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.tm.terminal 4 0 2015-03-30 22:33:11.556
+!MESSAGE Underlying input stream returned zero bytes
+!STACK 0
+java.io.IOException: Underlying input stream returned zero bytes
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:287)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:126)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:112)
+	at java.io.InputStreamReader.read(InputStreamReader.java:168)
+	at org.eclipse.tm.internal.terminal.emulator.VT100Emulator.getNextChar(VT100Emulator.java:1159)
+	at org.eclipse.tm.internal.terminal.emulator.VT100Emulator.processNonControlCharacters(VT100Emulator.java:948)
+	at org.eclipse.tm.internal.terminal.emulator.VT100Emulator.processNewText(VT100Emulator.java:307)
+	at org.eclipse.tm.internal.terminal.emulator.VT100Emulator.processText(VT100Emulator.java:251)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl$3.run(VT100TerminalControl.java:472)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

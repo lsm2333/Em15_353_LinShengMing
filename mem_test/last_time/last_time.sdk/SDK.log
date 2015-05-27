@@ -1,0 +1,42 @@
+22:24:04 INFO  : Processing command line option -hwspec D:/LINUX_TEST/last_time/last_time.sdk/system_wrapper.hdf.
+22:27:10 INFO  : ps7_init is completed.
+22:27:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:28:30 INFO  : ps7_init is completed.
+22:28:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:29:07 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+22:29:26 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+22:30:06 INFO  : ps7_init is completed.
+22:30:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:32:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:38:08 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:38:27 INFO  : Processing command line option -hwspec D:/LINUX_TEST/last_time/last_time.sdk/system_wrapper.hdf.
+22:38:28 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
